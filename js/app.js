@@ -38,7 +38,7 @@ image.src = 'https://ysoftaoglu.github.io/BeyinsizReyizGenerator/img/beyinsiz.jp
 
 // Image Loaded
 image.onload = function () {
-  drawImage("Hangi programlama dillerini biliyorsun?", "HTML", "HTML + CSS", "HTML + CSS + Javascript", "200 liraya sıfırdan site yapılır .d");
+  drawImage("Hangi programlama dillerini biliyorsun?", "HTML + CSS + Javascript", "HTML + CSS", "HTML", "200 liraya sıfırdan site yapılır .d");
 };
 
 // Image caption with new line feature
