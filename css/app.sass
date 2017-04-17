@@ -1,0 +1,97 @@
+*
+  box-sizing: border-box
+
+body
+  font-size: 16px
+  color: #666
+  font-family: 'Architects Daughter', cursive
+
+label
+  margin-bottom: 5px
+  display: inline-block
+
+.github-corner:hover .octo-arm
+  animation: octocat-wave 560ms ease-in-out
+
+.app
+  &__container
+    width: 560px
+    margin: 0 auto
+    text-align: center
+
+  &__logo
+    text-align: center
+    img
+      width: 65px
+      animation: rotate 1s infinite
+
+  &__form-input
+    padding: 8px
+    width: 100%
+    border: 1px solid #ddd
+
+  &__button
+    display: inline-block
+    color: #fff
+    width: 100%
+    padding: 12px
+    border: 0
+    text-decoration: none
+
+  &__button--generate
+    background-color: #2196f3
+
+  &__button--download
+    background-color: #4ea952
+  &__footer
+    span
+      color: #EC414F 
+
+  &__row
+    margin-left: -15px
+    margin-right: -15px
+    &:after
+      content: ""
+      display: table
+      clear: both
+
+  &__col-1
+    float: left
+    width: 100%
+    padding: 0 15px
+    margin-bottom: 15px
+
+  &__col-2
+    float: left
+    width: 50%
+    padding: 0 15px
+    margin-bottom: 15px
+
+#app__canvas
+  border: 5px solid #e9ffea
+  margin-bottom: 15px
+
+@keyframes rotate
+  0%
+    transform: rotate(0deg)
+
+  100%
+    transform: rotate(360deg)
+
+
+@keyframes octocat-wave
+  0%,100%
+    transform: rotate(0)
+
+  20%,60%
+    transform: rotate(-25deg)
+
+  40%,80%
+    transform: rotate(10deg)
+
+ @media (max-width: 500px)
+  .github-corner
+    &:hover .octo-arm
+      animation: none
+    .octo-arm
+      animation: octocat-wave 560ms ease-in-out   
