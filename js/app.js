@@ -38,7 +38,7 @@ image.src = 'https://ysoftaoglu.github.io/BeyinsizReyizGenerator/img/beyinsiz.jp
 
 // Image Loaded
 image.onload = function () {
-  drawImage("Hangi şampuanı kullanıyorsunuz", "Dostum saçım yok dedim", "Dostum dalga mı geçiyorsun lanet olsun", "Dostum lanet olsun soru mu bu", "Hed en soldırs yine sasırdınız mk kelleri :d");
+  drawImage("Hangi programlama dillerini biliyorsun?", "HTML", "HTML + CSS", "HTML + CSS + Javascript", "200 liraya sıfırdan site yapılır .d");
 };
 
 // Image caption with new line feature
