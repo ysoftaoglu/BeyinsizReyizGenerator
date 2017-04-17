@@ -7,7 +7,7 @@ var generateButton = document.getElementsByClassName('app__button--generate')[0]
 var posOption = {
   text: {
     x: 275,
-    y: 25
+    y: 20
   },
   guru: {
     x: 125,
