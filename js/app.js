@@ -34,7 +34,7 @@ ctx.fillStyle = '#000';
 
 // New Image
 var image = new Image();
-image.src = 'http://localhost:3000/a/img/beyinsiz.jpg';
+image.src = 'https://ysoftaoglu.github.io/BeyinsizReyizGenerator/img/beyinsiz.jpg';
 
 // Image Loaded
 image.onload = function () {
